@@ -312,3 +312,23 @@ footer .foot-col a:hover{color:var(--copper-light);}
 .page-header .wrap{position:relative; z-index:1; padding-bottom:60px;}
 .page-header .kicker{color:var(--copper-light); font-family:var(--font-display); letter-spacing:1.5px; font-size:.9rem;}
 .page-header h1{font-size:clamp(2.2rem,5vw,3.6rem); max-width:18ch;}
+
+/* ---------- Principles (4, non-numbered) ---------- */
+.principles{
+  display:grid; grid-template-columns:repeat(4,1fr);
+  border-top:1px solid rgba(13,17,22,.15);
+  border-bottom:1px solid rgba(13,17,22,.15);
+}
+.principle{padding:40px 30px; border-right:1px solid rgba(13,17,22,.15);}
+.principle:last-child{border-right:none;}
+.principle h3{font-size:1.15rem; margin-bottom:10px;}
+.principle p{font-size:.95rem; color:var(--steel);}
+@media (max-width:900px){
+  .principles{grid-template-columns:1fr 1fr;}
+  .principle:nth-child(2){border-right:none;}
+  .principle{border-bottom:1px solid rgba(13,17,22,.15);}
+}
+@media (max-width:560px){
+  .principles{grid-template-columns:1fr;}
+  .principle{border-right:none;}
+}
