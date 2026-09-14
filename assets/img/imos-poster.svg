@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#0A1620"/>
+  <text x="640" y="345" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial, Helvetica, sans-serif" font-weight="700"
+        font-size="120" letter-spacing="6">
+    <tspan fill="#FFFFFF">IM</tspan><tspan fill="#E0A15E">O</tspan><tspan fill="#FFFFFF">S</tspan>
+  </text>
+  <text x="640" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="26" letter-spacing="6" fill="#9FADB8">ENERGY &amp; INFRASTRUCTURE</text>
+  <text x="640" y="460" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="26" letter-spacing="6" fill="#9FADB8">SOLUTIONS</text>
+</svg>
