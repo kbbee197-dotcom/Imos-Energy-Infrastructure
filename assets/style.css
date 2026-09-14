@@ -230,3 +230,28 @@ p{margin:0 0 1em 0; max-width:62ch;}
 @media (max-width:820px){
   .focus-content{padding:60px 28px;}
 }
+
+/* ---------- CTA banner ---------- */
+.cta-banner{
+  background:var(--copper);
+  color:#fff;
+  padding:60px 0;
+  text-align:left;
+}
+.cta-banner .wrap{
+  display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;
+}
+.cta-banner h2{color:#fff; font-size:clamp(1.5rem,3vw,2.1rem); margin:0; max-width:26ch;}
+.cta-banner .btn-outline{border-color:rgba(255,255,255,.7);}
+
+/* ---------- Footer ---------- */
+footer{background:var(--navy-deep); color:var(--steel-light); padding:60px 0 30px;}
+footer .foot-grid{
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:40px;
+  padding-bottom:30px; border-bottom:1px solid rgba(255,255,255,.1);
+}
+footer .brand{margin-bottom:10px;}
+footer .foot-col h4{color:#fff; font-size:.95rem; margin-bottom:14px; font-family:var(--font-body); font-weight:600;}
+footer .foot-col a, footer .foot-col p{display:block; margin-bottom:8px; font-size:.92rem; color:var(--steel-light);}
+footer .foot-col a:hover{color:var(--copper-light);}
+.foot-bottom{padding-top:22px; font-size:.85rem; color:var(--steel);}
